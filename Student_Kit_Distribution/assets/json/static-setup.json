@@ -1,0 +1,266 @@
+{
+    "googleForm": {
+        "customFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfCUEK14ScBk7ug_4E0BzeQHznHn43r9lyRiI8YjSxbqtRYtg/formResponse",
+        "prefilledFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfCUEK14ScBk7ug_4E0BzeQHznHn43r9lyRiI8YjSxbqtRYtg/viewform?usp=pp_url",
+        "enrollmentId": "entry.1922656116",
+        "status": "entry.1384694393",
+        "superviserId": "entry.1692484696",
+        "locationId": "entry.1277131857"
+    },
+    "googleSheet": {
+        "url": "https://docs.google.com/spreadsheets/d/1K2kct9TY8U-61fYWZG04rf3W_a3_9LOKFKOPQEIh660/edit?usp=sharing",
+        "sheetId": "1K2kct9TY8U-61fYWZG04rf3W_a3_9LOKFKOPQEIh660",
+        "records": "records!A2:E12000",
+        "entries": "entries!A2:E12000",
+        "members": "members!A2:J1000",
+        "supervisors": "supervisors!A2:D100",
+        "activities": "activities!A2:F100",
+        "locations": "locations!A2:E21",
+        "setup": "setup!B2:C6",
+        "students":"students!A2:L1200"
+    },
+    "metadata": {
+        "members": {
+            "id": {
+                "index": 0,
+                "name": "memberId",
+                "displayName": "Member Id"
+            },
+            "country": {
+                "index": 1,
+                "name": "country",
+                "displayName": "Representing Country"
+            },
+            "committee": {
+                "index": 2,
+                "name": "committee",
+                "displayName": "Representing Committee"
+            },
+            "school": {
+                "index": 3,
+                "name": "school",
+                "displayName": "School Location"
+            },
+            "name": {
+                "index": 4,
+                "name": "name",
+                "displayName": "Name"
+            },
+            "gender": {
+                "index": 5,
+                "name": "gender",
+                "displayName": "Gender",
+                "options": [ "M", "F"]
+            },
+            "registration": {
+                "index": 6,
+                "name": "registration",
+                "displayName": "Registration",
+                "options": [ "A", "B", "C", "D" ]
+            },
+            "accomodation": {
+                "index": 7,
+                "name": "accomodation",
+                "displayName": "Hotel Accomodation",
+                "options": [ "Not Eligible", "Hotel Novotel", "Hyatt Regency" ]
+            },
+            "schedule": {
+                "index": 8,
+                "name": "schedule",
+                "displayName": "Day wise Schedule",
+                "options": [ "scheduleA.pdf", "scheduleB.pdf", "scheduleC.pdf", "scheduleD.pdf" ]
+            }
+        },
+        "activities": {
+            "id": {
+                "index": 0,
+                "name": "activityId",
+                "displayName": "Activity Id"
+            },
+            "group": {
+                "index": 1,
+                "name": "group",
+                "displayName": "Group"
+            },
+            "name": {
+                "index": 2,
+                "name": "name",
+                "displayName": "Name"
+            },
+            "description": {
+                "index": 3,
+                "name": "description",
+                "displayName": "Description"
+            },
+            "max": {
+                "index": 4,
+                "name": "max",
+                "displayName": "Max Allowed"
+            },
+            "custom": {
+                "index": 5,
+                "name": "custom",
+                "displayName": "Custom"
+            }
+        },
+        "locations": {
+            "id": {
+                "index": 0,
+                "name": "branchId",
+                "displayName": "Branch Id"
+            },
+            "branch": {
+                "index": 1,
+                "name": "branch",
+                "displayName": "branch"
+            },
+            "city": {
+                "index": 2,
+                "name": "city",
+                "displayName": "city"
+            },
+            "state": {
+                "index": 3,
+                "name": "state",
+                "displayName": "State"
+            },
+            "country": {
+                "index": 4,
+                "name": "country",
+                "displayName": "Country"
+            }
+        },
+        "supervisor": {
+            "id": {
+                "index": 0,
+                "name": "supervisorId",
+                "displayName": "Supervisor Id"
+            },
+            "name": {
+                "index": 1,
+                "name": "name",
+                "displayName": "Name"
+            },
+            "gender": {
+                "index": 2,
+                "name": "gender",
+                "displayName": "Gender"
+            },
+            "otp": {
+                "index": 3,
+                "name": "otp",
+                "displayName": "OTP"
+            }
+        },
+        "entries": {
+            "timestamp": {
+                "index": 0,
+                "name": "timestamp",
+                "displayName": "Timestamp"
+            },
+            "supervisorId": {
+                "index": 1,
+                "name": "supervisorId",
+                "displayName": "Supervisor Id"
+            },
+            "memberId": {
+                "index": 2,
+                "name": "memberId",
+                "displayName": "Member Id"
+            },
+            "activityId": {
+                "index": 3,
+                "name": "activityId",
+                "displayName": "Activity Id"
+            },
+            "remarks": {
+                "index": 4,
+                "name": "remarks",
+                "displayName": "Remarks"
+            }
+        },
+        "records": {
+            "timestamp": {
+                "index": 0,
+                "name": "timestamp",
+                "displayName": "timestamp"
+            },
+            "enrollmentId": {
+                "index": 1,
+                "name": "enrollmentId",
+                "displayName": "enrollmentId"
+            },
+            "status": {
+                "index": 2,
+                "name": "status",
+                "displayName": "status"
+            },
+            "superviserId": {
+                "index": 3,
+                "name": "superviserId",
+                "displayName": "superviserId"
+            },
+            "locationId": {
+                "index": 4,
+                "name": "location",
+                "displayName": "location"
+            }
+        },
+        "students": {            
+            "id": {
+                "index": 0,
+                "name": "studentId",
+                "displayName": "Enrollment No."
+            },
+            "name": {
+                "index": 1,
+                "name": "name",
+                "displayName": "Student Name"
+            },
+            "board": {
+                "index": 2,
+                "name": "board",
+                "displayName": "Activity Id"
+            },
+            "city": {
+                "index": 3,
+                "name": "city",
+                "displayName": "City"
+            },
+            "location": {
+                "index": 4,
+                "name": "location",
+                "displayName": "School Location"
+            },
+            "grade": {
+                "index": 5,
+                "name": "grade",
+                "displayName": "Grade"
+            },
+            "Subject": {
+                "index": 6,
+                "name": "Subject",
+                "displayName": "Subject"
+            },
+            "email_id": {
+                "index": 7,
+                "name": "email_id",
+                "displayName": "Email ID"
+            },
+            "mobile_no": {
+                "index": 8,
+                "name": "mobile_no",
+                "displayName": "Mobile No."
+            },
+            "comment": {
+                "index": 9,
+                "name": "comment",
+                "displayName": "Comment"
+            }
+
+        }
+    },
+    "cache": {
+        "enabled": true
+    }
+}
